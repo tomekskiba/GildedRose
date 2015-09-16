@@ -1,2 +1,2 @@
-# GildedRose hello
+# GildedRose
 
