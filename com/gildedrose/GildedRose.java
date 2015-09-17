@@ -4,6 +4,7 @@ class GildedRose {
 	Item[] items;
 
 	public final static String CONJURED = "Conjured";
+	public final static int MAX_QUALITY = 50;
 	
 	public GildedRose(Item[] items) {
 		this.items = items;
@@ -11,7 +12,7 @@ class GildedRose {
 
 	public void updateQualityOfConjured(Item item ){
 		if(item.sellIn < 0){
-		item.quality = item.quality - 4;
+			item.quality = item.quality - 4;
 		}else{
 			item.quality = item.quality - 2;
 		}
@@ -47,21 +48,16 @@ class GildedRose {
 			if (item.quality < 50) {
 
 				item.quality = item.quality + 1;
-
+				
 				if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
-					if (item.sellIn < 11) {
-						if (item.quality < 50) {
-							item.quality = item.quality + 1;
-						}
-					}
+				 	if (item.sellIn < 11 && item.quality < 50) {
+				 		item.quality = item.quality + 1;
+				 	}
 
-					if (item.sellIn < 6) {
-						if (item.quality < 50) {
-							item.quality = item.quality + 1;
-						}
-					}
+				 	if (item.sellIn < 6 && item.quality < 50) {
+				 		item.quality = item.quality + 1;
+				 	}
 				}
-
 			}
 		}
 
