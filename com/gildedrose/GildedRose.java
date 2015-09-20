@@ -82,7 +82,7 @@ class GildedRose {
 	 * This method updates the quality of an item whose sell in date has passed (negative value).
 	 * @param item		This is the item whose quality is to be updated.
 	 */
-	public void updateQualityBasedOnSellIn(Item item) {
+	private void updateQualityBasedOnSellIn(Item item) {
 		if (item.sellIn < 0) {
 			if (!item.name.equals("Aged Brie")) {
 				if (!item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
@@ -108,7 +108,7 @@ class GildedRose {
 	 *
 	 * @param item		This is the item whose quality and sell in date is to be updated.
 	 */
-	public void updateQualityNotConj(Item item) {
+	private void updateQualityNotConj(Item item) {
 		updateQuality(item);
 
 		if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
