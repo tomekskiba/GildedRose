@@ -4,13 +4,13 @@ Mob programming from "EchoMob"
 
 Members:
 .......
-Tomasz Skiba
-Yash Patel
-Rich
-Joey White
-Usha Annipu
-Lori Higham
-Kamran Zameer
+Tomasz Skiba,
+Yash Patel,
+Rich,
+Joey White,
+Usha Annipu,
+Lori Higham,
+Kamran Zameer,
 Yetish Narayana
 
 Mob session 1
