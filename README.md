@@ -6,7 +6,7 @@ Members:
 .......
 Tomasz Skiba,
 Yash Patel,
-Rich,
+Rich Burgess,
 Joey White,
 Usha Annipu,
 Lori Higham,
