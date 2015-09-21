@@ -11,8 +11,7 @@ Joey White,
 Usha Annipu,
 Lori Higham,
 Kamran Zameer,
-Yetish Narayana,
-Yash Patel
+Yetish Narayana
 
 Mob session 1
 https://youtu.be/wA95Qbd8RNs
